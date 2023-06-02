@@ -261,5 +261,3 @@ and run your script. Here is an [example script](script/terminal.js).
 
 [[TOC](README.md "Table of Contents")] [[Previous](stock.md "Stock market")]
 [[Next](daemon.md "Find the daemon")]
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)

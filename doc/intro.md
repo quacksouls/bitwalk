@@ -133,5 +133,3 @@ Below are various tips you might want to keep in mind while playing the game.
    options.
 
 [[TOC](README.md "Table of Contents")] [[Next](start.md "Starting out")]
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)

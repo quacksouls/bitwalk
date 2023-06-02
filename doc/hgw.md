@@ -423,5 +423,3 @@ from a world server.
 [[TOC](README.md "Table of Contents")]
 [[Previous](reboot.md "After the first reboot")]
 [[Next](faction.md "Faction progression")]
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
