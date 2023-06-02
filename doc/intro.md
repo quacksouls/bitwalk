@@ -9,7 +9,7 @@ repositories of scripts for playing the game:
 
 Are you new to programming or do you want to refresh your programming knowledge?
 The tutorial
-[_Learn you some JavaScript for fun_](https://github.com/quacksouls/lyf) uses
+[_Learn you some JavaScript for fun_](https://quacksouls.github.io/lyf/) uses
 Bitburner to help you learn basic programming skills you need to play the game.
 
 Bitburner is also an
@@ -98,10 +98,12 @@ Below are various tips you might want to keep in mind while playing the game.
    running the online version of the game and ensure that the browser is not
    behind any other application windows.
 1. _Functional code._ Write functional JavaScript code wherever you can. If you
-   are not familiar with JavaScript, you might find this
-   [online book](https://eloquentjavascript.net/) useful to help you learn the
-   language. Functional JavaScript, or functional programming, might seem weird
-   at first for anyone who is accustomed to procedural and/or object-oriented
+   are not familiar with JavaScript,
+   [this tutorial](https://quacksouls.github.io/lyf/) explains how to write and
+   run JavaScript programs in Bitburner. This
+   [online book](https://eloquentjavascript.net/) teaches you JavaScript in more
+   depth. Functional JavaScript, or functional programming, might seem weird at
+   first for anyone who is accustomed to procedural and/or object-oriented
    programming. Various tutorials are available online to help you get started
    on functional JavaScript. See for example
    [this tutorial](https://opensource.com/article/17/6/functional-javascript),
