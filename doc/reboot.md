@@ -6,6 +6,8 @@ Augmentations installed so far. All scripts you have saved on your `home` server
 can still be found there. Let's start again, but this time with slightly better
 stat multipliers.
 
+<!-- ================================================================= -->
+
 ## Reboot income and Hack farming
 
 First things first. Let's restart your streams of passive income as per the
@@ -28,6 +30,8 @@ redirect the compromised servers to hack another common target such as
 target a low-level server as a means of increasing your Hack stat and generate
 passive income. As your stat multipliers are still rather low, you might find it
 more profitable to target `n00dles`, rather than `foodnstuff` or `joesguns`.
+
+<!-- ================================================================= -->
 
 ## Join Sector-12
 
@@ -59,6 +63,8 @@ following Augmentations from Sector-12:
 The `CashRoot Starter Kit` is useful because after a soft reset the Augmentation
 would grant you $1m and the program `BruteSSH.exe`. It is worth waiting to
 unlock and buy `CashRoot Starter Kit` from Sector-12.
+
+<!-- ================================================================= -->
 
 ## Automate Hacknet
 
@@ -104,6 +110,8 @@ an example [Hacknet script](script/hnet.js).
 
 > **Problem.** Add code to the [Hacknet script](script/hnet.js) to upgrade the
 > RAM and Cores of your Hacknet farm.
+
+<!-- ================================================================= -->
 
 ## Your first worm
 
@@ -256,6 +264,8 @@ money_{max} / security_{min}, & \text{otherwise}.
 > within that faction. In fact, you can share the RAM of any world servers you
 > have nuked. Write a script to share the RAM of your botnet with a faction.
 
+<!-- ================================================================= -->
+
 ## Purchased servers
 
 Purchased servers (or pserv) are like a boost to your role-play as a botnet
@@ -341,6 +351,8 @@ using an order of magnitude or more threads than any world server.
 >
 > **Problem 5.** Sometimes you need to wipe out your pserv farm and start again
 > with a clean slate. Write a script to delete all purchased servers.
+
+<!-- ================================================================= -->
 
 ## Second soft reset
 

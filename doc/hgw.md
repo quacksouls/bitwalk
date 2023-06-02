@@ -278,6 +278,8 @@ wait for any HGW operation to finish prior to launching the next HGW operation.
 The proto batcher model tries to parallelize each of the hack, grow, and weaken
 operations as much as possible.
 
+<!-- ================================================================= -->
+
 ### Benefits
 
 Advantages of a proto batcher include:
@@ -289,6 +291,8 @@ Advantages of a proto batcher include:
 - More money. Less time spent on waiting means we are able to launch various
   HGW operations sooner. The sooner we are able to launch HGW operations, the
   sooner our hack operation can run to steal money from a target.
+
+<!-- ================================================================= -->
 
 ### Disadvantages
 
@@ -313,6 +317,8 @@ Cons of a proto batcher include:
   target's security level to its minimum. Each of the grow and weaken
   operations requires plenty of RAM in order to bring the target to the
   prepped state, ready for the next hack operation.
+
+<!-- ================================================================= -->
 
 ### Algorithm outline
 
@@ -395,6 +401,8 @@ three operations in a batch are scheduled such that hack should finish first,
 followed by grow, and finally weaken.
 
 ![Proto batcher](image/batch.png "Proto batcher")
+
+<!-- ================================================================= -->
 
 ### Experimental results
 

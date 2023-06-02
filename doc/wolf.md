@@ -25,6 +25,8 @@ Destroying each level of this BitNode would reward you with the following:
 -   Level 3. Permanently able to place limit/stop orders in other BitNodes. Your
     hacking growth multipliers will be increased by 21%.
 
+<!-- ================================================================= -->
+
 ## Difficulty
 
 This BitNode is considered very hard. The primary source of difficulty is
@@ -35,6 +37,8 @@ relevant data and API. Once you have enough money to purchase Four Sigma data
 and API, you can use the trade bot you have been using in other BitNodes. You
 should beat BN8.1 without using Four Sigma data and API to unlock the
 achievement `BN8: Challenge`.
+
+<!-- ================================================================= -->
 
 ## Pre-4S
 
@@ -47,6 +51,8 @@ BitNodes. The differences are two-fold:
    [`ns.stock.getForecast()`](https://github.com/bitburner-official/bitburner-src/blob/stable/markdown/bitburner.tix.getforecast.md).
 1. You can now take advantage of shorting stocks to generate even more money.
    You can also implement some logic for placing limit and stop orders.
+
+<!-- ================================================================= -->
 
 ### Forecast
 
@@ -75,6 +81,8 @@ stock, you must collect prices of each stock in 15 (or more) consecutive ticks.
 When you have 14 (or more) coded prices, you can begin to generate forecast
 values. You only ever want a limited number of coded prices. Adding the latest
 coded price consequently means you must remove the oldest coded price.
+
+<!-- ================================================================= -->
 
 ### Shorting stocks
 

@@ -22,6 +22,8 @@ together with the requirements for receiving faction invitations. The list of
 Augmentations offered by each faction can be
 [found here](../../data/augmentation/).
 
+<!-- ================================================================= -->
+
 ## Early game factions
 
 These are among some of the factions you would most likely encounter early in
@@ -49,6 +51,8 @@ the game.
    faction and/or company. Furthermore, the faction has
    `Neuroreceptor Management Implant`, exclusive to the faction, that removes
    the penalty for not focusing on an action.
+
+<!-- ================================================================= -->
 
 ## City factions
 
@@ -82,6 +86,8 @@ Each trip costs $200k, one way only.
    boosts your reputation gain within a company. The Augmentation is also
    available in various other factions.
 
+<!-- ================================================================= -->
+
 ## Hacking groups
 
 The following factions have Augmentations that boost your hack-related stats.
@@ -104,6 +110,8 @@ The following factions have Augmentations that boost your hack-related stats.
    receive an invitation. The server has a minimum Hack stat requirement between
    340 and 365, inclusive. You are required to open at least 3 ports on the
    server before you are allowed to nuke it.
+
+<!-- ================================================================= -->
 
 ## Megacorporations
 
@@ -148,6 +156,8 @@ working for the corresponding company as you wait to receive an invitation.
    This faction has the Augmentation `PC Direct-Neural Interface` that boosts
    your reputation gain in a company. The Augmentation is also available in some
    other factions.
+
+<!-- ================================================================= -->
 
 ## Criminal organizations
 
@@ -209,6 +219,8 @@ your karma.
 | Kidnap and ransom     |    -6 |
 | Assassinate           |   -10 |
 | Heist                 |   -15 |
+
+<!-- ================================================================= -->
 
 ## Endgame factions
 

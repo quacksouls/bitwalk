@@ -33,6 +33,8 @@ Finally, Bitburner is a sandbox game. While the game presents you with some
 basic objectives to fulfil, you are free to make up your own goals. Play the
 game in any way you want.
 
+<!-- ================================================================= -->
+
 ## Tips
 
 Below are various tips you might want to keep in mind while playing the game.

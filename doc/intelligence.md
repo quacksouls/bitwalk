@@ -26,6 +26,8 @@ would grant you access to the function
 and your hack-related multipliers would be raised by 8%. Completing BN5.3 would
 boost your hack-related multipliers by 14%.
 
+<!-- ================================================================= -->
+
 ## How to increase Intelligence?
 
 Most tasks that can be performed via the
@@ -84,6 +86,8 @@ which you are focused.
    or
    [`ns.singularity.installBackdoor()`](https://github.com/bitburner-official/bitburner-src/blob/dev/markdown/bitburner.singularity.installbackdoor.md).
 
+<!-- ================================================================= -->
+
 ## Create a program
 
 > 📝 Obtain the data again, but always focus on the web browser.
@@ -130,6 +134,8 @@ University was used to raise the Hack stat to at least 100.
 | `ServerProfiler.exe` |          230.762 |        239.080 |
 | `SQLInject.exe`      |         2852.946 |       2781.086 |
 
+<!-- ================================================================= -->
+
 ## Commit a crime
 
 This also requires focus. Each data value was obtained by committing a crime for
@@ -149,6 +155,8 @@ one hour and divide by 60 minutes.
 | Rob store             |         0.750 |
 | Shoplift              |             0 |
 | Traffick illegal arms |             0 |
+
+<!-- ================================================================= -->
 
 ## Passive farm
 

@@ -5,6 +5,8 @@ passive income. In this chapter, you will explore a game mechanic that can
 provide a huge sum of money within a decent amount of time. Finally, the chapter
 will help you to automate a particular aspect of the game.
 
+<!-- ================================================================= -->
+
 ## Coding Contracts
 
 [Coding Contracts](https://bitburner-official.readthedocs.io/en/latest/basicgameplay/codingcontracts.html)
@@ -136,6 +138,8 @@ API is `ns.codingcontract.functionName()`, not
 >
 > **Problem 2.** Write a script to help you find CCTs on world servers. Launch
 > the appropriate solution script to solve a particular CCT that you find.
+
+<!-- ================================================================= -->
 
 ## Path to a server
 

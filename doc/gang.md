@@ -28,6 +28,8 @@ for the rest of your playthrough in the particular BitNode. The only way to
 reset your gang is to use `b1t_flum3.exe` to enter the same BitNode again or
 travel to a different BitNode.
 
+<!-- ================================================================= -->
+
 ## Requirements
 
 The requirements for creating a gang can vary, depending on the BitNode you are
@@ -62,6 +64,8 @@ grinding script continue to commit homicide until your karma is at -54,000 or
 lower. Homicide is the best crime for quickly lowering your karma and earning
 money. Data available [here](../../data/crime/). In case you have sleeves,
 assign them to commit crimes in the above order as well.
+
+<!-- ================================================================= -->
 
 ## Criminal or hacking?
 
@@ -130,6 +134,8 @@ script(s). You might find it easier to let all members of a criminal gang take
 the combat path because tasks that scale off combat stats generally yield more
 money than other tasks.
 
+<!-- ================================================================= -->
+
 ## Increase respect
 
 You initially start with 3 gang members. Respect is mandatory for recruiting
@@ -142,6 +148,8 @@ increase respect as well, but not by as many as the latter 2 tasks.
 
 The amount of respect your gang has can affect the price of equipment. Higher
 respect translates to higher discount in the equipment shop.
+
+<!-- ================================================================= -->
 
 ## Lower penalty
 
@@ -187,6 +195,8 @@ earn money. However, if your respect increases faster than your wanted level,
 you might want to ignore your penalty altogether and instead assign your members
 to tasks that generate income.
 
+<!-- ================================================================= -->
+
 ## Ascension
 
 Ascension is a way to permanently boost a gangster's stat multipliers. However,
@@ -217,6 +227,8 @@ management, you might want to set the ascension threshold at 1.25. If an
 ascension would result in 25% boost to one or more of a gangster's stats, then
 you ascend the gangster in question.
 
+<!-- ================================================================= -->
+
 ## Augmentation
 
 Augmentations provide another means to permanently boost the stat multipliers of
@@ -227,6 +239,8 @@ becomes more powerful and your respect grows. Prioritize the purchase of
 Augmentations over other equipment. In general, try to first purchase an
 Augmentation that raises Defense. Higher defense translates to a lower
 probability of death during a clash against a rival gang.
+
+<!-- ================================================================= -->
 
 ## Equipment
 
@@ -239,6 +253,8 @@ stat means a lower probability of death while your gang clashes against a rival
 gang. All armour pieces raise Defense, but not all weapons raise Defense. Once a
 gangster has most or all items (Augmentations and equipment) that raise their
 Defense, focus on acquiring the remaining items to boost various stats.
+
+<!-- ================================================================= -->
 
 ## Gang power
 
@@ -259,6 +275,8 @@ Your gang's power also affects the price you pay in the equipment shop. Like
 respect, higher power translates to a higher discount in the shop. The best
 combination is high respect and high power to significantly raise the discount
 you get in the shop.
+
+<!-- ================================================================= -->
 
 ## Territory warfare
 

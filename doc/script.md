@@ -8,6 +8,8 @@ the script to hack various
 [servers](https://bitburner-official.readthedocs.io/en/latest/basicgameplay/servers.html)
 found in the game world.
 
+<!-- ================================================================= -->
+
 ## `hack.js`
 
 Hacking a server provides a source of passive income, in addition to other
@@ -90,6 +92,8 @@ and you should see the script `hack.js` you just created. You can run the script
 on your `home` server, but this would take up the valuable small amount of RAM
 your `home` server has early in the game. Another option is to run the script on
 a different world server.
+
+<!-- ================================================================= -->
 
 ## Hack `n00dles`
 
@@ -261,6 +265,8 @@ servers and use them to hack `n00dles`. Remember to first
 [`scp`](https://bitburner-official.readthedocs.io/en/latest/basicgameplay/terminal.html#scp)
 your script `hack.js` over to each server and run the script using as many
 threads as the server allows.
+
+<!-- ================================================================= -->
 
 ## Upgrade `home`
 

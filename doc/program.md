@@ -11,6 +11,8 @@ This chapter shows you ways to obtain various programs to help with your hacking
 as well as exploration of the game. You will learn about factions and why they
 are important in the game.
 
+<!-- ================================================================= -->
+
 ## Programs
 
 Programs are important as they help you to gain root access to various servers.
@@ -94,6 +96,8 @@ openers_. Each of these programs allows you to open one port on a world server.
 > rest are locked until you have the required Hack stat. The programs are also
 > available for purchase via the dark web. Read the description of each program
 > to see whether you can work out what the program does.
+
+<!-- ================================================================= -->
 
 ## Factions
 
@@ -221,6 +225,8 @@ reduced rate of reputation.
 
 ![Hacking contracts for CyberSec](image/cybersec-hacking-contracts.png "Perform hacking contracts for CyberSec")
 
+<!-- ================================================================= -->
+
 ## Reputation
 
 Reputation can be earned by working for a company or faction. You want to raise
@@ -284,6 +290,8 @@ something else simultaneously</kbd>, then you go to The Slums and commit a
 crime. Your focus would be taken away from the faction/company work. A screen
 would popup to show you are currently focusing on a crime. Now you are back to
 passively earning faction or company reputation.
+
+<!-- ================================================================= -->
 
 ## Share
 
@@ -381,6 +389,8 @@ reputation points to unlock all Augmentations from CyberSec.
 > **Problem.** Write a script that launches the [share script](script/share.js)
 > on your `home` server. The launcher should use as many threads to run the
 > share script as the RAM of `home` allows.
+
+<!-- ================================================================= -->
 
 ## Augmentation
 

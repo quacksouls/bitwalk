@@ -55,6 +55,8 @@ nodes. Refrain from spending all your money gambling on the Stock Market.
 > [_Your first worm_](reboot.md#your-first-worm) to help you choose a bunch of
 > world servers for your pserv farm to target.
 
+<!-- ================================================================= -->
+
 ## Trade bot, post-4S
 
 Purchase access to all Stock Market data and APIs as soon as possible to reap

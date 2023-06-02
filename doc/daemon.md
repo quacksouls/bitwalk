@@ -28,6 +28,8 @@ BN1 again to play through BN1.2 and complete it to permanently increase all your
 multipliers by 24%. Details on all BitNodes can be
 [found here](https://bitburner-official.readthedocs.io/en/latest/guidesandtips/recommendedbitnodeorder.html).
 
+<!-- ================================================================= -->
+
 ## What's next?
 
 After BN1.1, the next BitNode you should enter is `BitNode-4: The Singularity`
@@ -129,6 +131,8 @@ different BitNode.
    exorbitant than the previous purchase. Your gang and corporation can easily
    finance your spending spree. Your 8 sleeves can help you to satisfy the
    requirements for creating a gang in a BitNode other than BN2.
+
+<!-- ================================================================= -->
 
 ## Destroy the daemon
 
