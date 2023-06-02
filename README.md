@@ -8,3 +8,9 @@ Walkthrough of the game
 <!-- prettier-ignore -->
 - [Play online](https://danielyxie.github.io/bitburner/)
 - [Steam version](https://store.steampowered.com/app/1812820/Bitburner/)
+
+The walkthrough consists of:
+
+<!-- prettier-ignore -->
+- [Written guide](doc/README.md)
+- [Sample scripts](src/README.md)
