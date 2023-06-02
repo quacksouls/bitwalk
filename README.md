@@ -1,2 +1,3 @@
-# bitwalk
-Walkthrough of Bitburner
+# Bitburner
+
+Walkthrough of the game Bitburner.
