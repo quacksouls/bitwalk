@@ -114,5 +114,23 @@ Cores of each node. Furthermore, do not worry about reaching the maximum Level
 for each node. A Level of 50 for each node is decent. A Level of 100 for each
 node is ideal.
 
+<!-- ================================================================= -->
+
+## Problems
+
+**Problem 1.** Load the [online](https://danielyxie.github.io/bitburner/)
+version of Bitburner or download the
+[Steam version](https://store.steampowered.com/app/1812820/Bitburner/).
+Familiarize yourself with the Bitburner environment.
+
+**Problem 2.** Work through the in-game tutorial.
+
+**Problem 3.** Work through the
+[online tutorial](https://bitburner-official.readthedocs.io/en/latest/guidesandtips/gettingstartedguideforbeginnerprogrammers.html).
+
+**Problem 4.** Write a `Hello, world` program and run it in Bitburner. Refer to
+[this tutorial](https://quacksouls.github.io/lyf/) for some basics of JavaScript
+programming.
+
 [[TOC](README.md "Table of Contents")] [[Previous](intro.md "Introduction")]
 [[Next](script.md "First script")]
