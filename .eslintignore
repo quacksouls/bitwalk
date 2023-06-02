@@ -1,0 +1,3 @@
+*.json
+.git/
+node_modules/
