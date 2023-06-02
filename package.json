@@ -4,7 +4,7 @@
   "description": "Walkthrough of Bitburner",
   "main": "index.js",
   "scripts": {
-    "clean": "prettier --write . && eslint --fix --ext js --max-warnings 0 .",
+    "clean": "bash pull.sh && prettier --write . && eslint --fix --ext js --max-warnings 0 .",
     "format": "prettier --write .",
     "lint": "eslint --fix --ext js --max-warnings 0 .",
     "test": "echo \"Error: no test specified\" && exit 1"

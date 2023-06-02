@@ -9,3 +9,15 @@ walkthrough consists of:
 <!-- prettier-ignore -->
 - [Written guide](doc/README.md)
 - [Sample scripts](src/README.md)
+
+To download all sample scripts into your game:
+
+```sh
+# Run this command and wait for it to finish.
+$ wget https://raw.githubusercontent.com/quacksouls/bitwalk/main/pull.js pull.js
+
+# Download sample scripts into your game.
+$ run pull.js
+```
+
+The downloaded scripts are found under the top-level directory `quack/`.
