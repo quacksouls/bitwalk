@@ -36,6 +36,7 @@
 - [ ] Upgrade home RAM
   - Go to Alpha Enterprises. Upgrade RAM of home server to at least 256GB RAM.
   - Use all RAM of home server to hack joesguns.
+  - Work in Software Job at MegaCorp.  Requires at least 250 Hack.
 
 - [ ] Scanner and hack manager
   - Go to Alpha Enterprises and buy the TOR router.
