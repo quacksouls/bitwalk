@@ -40,8 +40,16 @@ function dir_structure() {
     const filesystem = [
         // Insert directory tree here.  Should contain sample scripts for
         // playing Bitburner.
+        "early-deploy.js",
         "early-hack.js",
         "hello.js",
+        "lib/constant/bool.js",
+        "lib/constant/script.js",
+        "lib/constant/server.js",
+        "lib/constant/string.js",
+        "lib/server.js",
+        "lib/string.js",
+        "lib/util.js",
     ];
     assert(filesystem.length > 0);
     return filesystem;
