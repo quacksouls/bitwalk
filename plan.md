@@ -1,4 +1,4 @@
-# Plan
+# Walkthrough plan
 
 <!-- prettier-ignore -->
 - [x] Hello, world!
