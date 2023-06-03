@@ -11,17 +11,18 @@
 - [x] Starting out
   - Music provided by Millennials Melody Originals
     https://youtu.be/E5-GAkDmaQk
-  - Buy a Hacknet node and let it generate some money.
+  - Buy 3 Hacknet nodes and let them generate some money.  Level each Hacknet
+    node to 10.
   - Study the free computer science course at university.
   - Work at FoodNStuff.
-  - Commit various crimes.
+  - Commit various crimes.  Use homicide to level up all combat stats.
 
 - [ ] Early hack script
   - Buy 3 more Hacknet nodes.  Upgrade each node to Level 10.
   - Work for Carmichael Security, Software Job requires 75 Hack.
   - Write a basic hack script called `early-hack.js`.
   - Write a script called `early-deploy.js` that uses the script `early-hack.js`
-    to let each of the following servers hack itself. Each of these servers do
+    to let each of the following servers hack itself.  Each of these servers do
     not require any ports to be opened.
     - n00dles
     - foodnstuff
