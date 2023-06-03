@@ -8,7 +8,8 @@ walkthrough consists of:
 
 <!-- prettier-ignore -->
 - [Written guide](doc/README.md)
-- [Sample scripts](src/README.md)
+- [Sample scripts](src#readme)
+- [Game plan](plan.md)
 
 To download all sample scripts into your game:
 
