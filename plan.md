@@ -20,9 +20,9 @@
   - Buy 3 more Hacknet nodes.  Upgrade each node to Level 10.
   - Work for Carmichael Security, Software Job requires 75 Hack.
   - Write a basic hack script called `early-hack.js`.
-  - Write a script that uses the script `early-hack.js` to let each of the
-    following servers hack itself. Each of these servers do not require any
-    ports to be opened.
+  - Write a script called `early-deploy.js` that uses the script `early-hack.js`
+    to let each of the following servers hack itself. Each of these servers do
+    not require any ports to be opened.
     - n00dles
     - foodnstuff
     - sigma-cosmetics
