@@ -18,7 +18,7 @@
   - Commit various crimes.  Use homicide to level up all combat stats.
 
 - [ ] Early hack script
-  - Buy 3 more Hacknet nodes.  Upgrade each node to Level 10.
+  - Buy 6 more Hacknet nodes.  Upgrade each node to Level 10.
   - Work for Carmichael Security, Software Job requires 75 Hack.
   - Write a basic hack script called `early-hack.js`.
   - Write a script called `early-deploy.js` that uses the script `early-hack.js`
