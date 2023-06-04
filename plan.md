@@ -17,7 +17,9 @@
   - Work at FoodNStuff.
   - Commit various crimes.  Use homicide to level up all combat stats.
 
-- [ ] Early hack script
+- [x] Early hack script
+  - Music provided by Millennials Melody Originals
+    https://youtu.be/6fR_HTEoM7w
   - Buy 6 more Hacknet nodes.  Upgrade each node to Level 10.
   - Work for Carmichael Security, Software Job requires 75 Hack.
   - Write a basic hack script called `early-hack.js`.
