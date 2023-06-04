@@ -40,7 +40,7 @@
   - Go to Alpha Enterprises.  Upgrade RAM of home server to at least 256GB RAM.
   - Use all RAM of home server to hack joesguns.  Need to first kill the script
     that is hacking joesguns.
-  - Work in Software Job at MegaCorp.  Requires at least 250 Hack.
+  - Apply for promotion at Carmichael Security.
 
 - [ ] Scanner and botnet
   - Go to Alpha Enterprises and buy the TOR router.
@@ -59,9 +59,8 @@
   - Upgrade home RAM and share home server with faction.
   - Share botnet with faction to boost reputation gain.
 
--   [ ] Automate Hacknet
-
-    -   A script to automate the buying and upgrading of Hacknet nodes.
+- [ ] Automate Hacknet
+  - A script to automate the buying and upgrading of Hacknet nodes.
 
 -   [ ] Farm Hack XP
 
