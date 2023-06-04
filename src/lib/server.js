@@ -110,6 +110,42 @@ export class Server {
     }
 
     /**
+     * Try to gain root access on this server.
+     *
+     * @returns {boolean} True if we have root access on this server;
+     *     false otherwise.
+     */
+    nuke() {
+        if (this.has_root_access()) {
+            return bool_t.SUCCESS;
+        }
+
+        // Open all required ports and nuke the server.
+        try {
+            this.#ns.brutessh(this.hostname());
+        } catch {}
+        try {
+            this.#ns.ftpcrack(this.hostname());
+        } catch {}
+        try {
+            this.#ns.httpworm(this.hostname());
+        } catch {}
+        try {
+            this.#ns.relaysmtp(this.hostname());
+        } catch {}
+        try {
+            this.#ns.sqlinject(this.hostname());
+        } catch {}
+        try {
+            this.#ns.nuke(this.hostname());
+            return bool_t.SUCCESS;
+        } catch {
+            assert(!this.has_root_access());
+            return bool_t.FAILURE;
+        }
+    }
+
+    /**
      * Determine how many threads we can run a given script on this server.
      *
      * @param {string} script Run this script on the server.
@@ -140,4 +176,16 @@ export class Server {
     ram_used() {
         return this.#ns.getServer(this.hostname()).ramUsed;
     }
+}
+
+/**
+ * Whether a server is bankrupt.  A server is bankrupt if the maximum amount
+ * of money it can hold is zero.
+ *
+ * @param {NS} ns The Netscript API.
+ * @param {string} host Test this server for bankruptcy.
+ * @returns {boolean} True if the server is bankrupt; false otherwise.
+ */
+export function is_bankrupt(ns, host) {
+    return ns.getServer(host).moneyMax === 0;
 }
