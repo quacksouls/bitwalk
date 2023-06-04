@@ -44,18 +44,20 @@
 
 - [ ] Scanner and botnet
   - Go to Alpha Enterprises and buy the TOR router.
-  - Use dark web to buy some programs.
+  - Use the dark web to buy all port opener programs.
   - Write a utility function to scan all servers in the game world.
   - Write a weight function to help us choose a server to target.
-  - Write a hack manager that automatically chooses a server to target.  Assemble
-    a botnet and use it to hack the target.
+  - Write a hack manager that automatically chooses a server to target.
+    Assemble a botnet and use it to hack the target.  This is similar to the
+    script `early-deploy.js`, but we let all servers attack a common target.
 
--   [ ] Faction
-
-    -   Join a faction.
-    -   Work for a faction to raise reputation.
-    -   Upgrade home RAM and share home server with faction.
-    -   Share botnet with faction to boost reputation gain.
+- [ ] Faction
+  - Join a faction.
+  - Work for a faction to raise reputation.
+  - Write a script `kill-script.js` to kill all scripts running on world
+    servers.  The script should exclude scripts running on home.
+  - Upgrade home RAM and share home server with faction.
+  - Share botnet with faction to boost reputation gain.
 
 -   [ ] Automate Hacknet
 
