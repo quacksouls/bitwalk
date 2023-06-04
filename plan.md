@@ -37,16 +37,17 @@
   - Need to save up some money to upgrade RAM of home server.
 
 - [ ] Upgrade home RAM
-  - Go to Alpha Enterprises. Upgrade RAM of home server to at least 256GB RAM.
-  - Use all RAM of home server to hack joesguns.
+  - Go to Alpha Enterprises.  Upgrade RAM of home server to at least 256GB RAM.
+  - Use all RAM of home server to hack joesguns.  Need to first kill the script
+    that is hacking joesguns.
   - Work in Software Job at MegaCorp.  Requires at least 250 Hack.
 
-- [ ] Scanner and hack manager
+- [ ] Scanner and botnet
   - Go to Alpha Enterprises and buy the TOR router.
   - Use dark web to buy some programs.
   - Write a utility function to scan all servers in the game world.
   - Write a weight function to help us choose a server to target.
-  - Write a hack manager that automatically chooses a server to target. Assemble
+  - Write a hack manager that automatically chooses a server to target.  Assemble
     a botnet and use it to hack the target.
 
 -   [ ] Faction
