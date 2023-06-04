@@ -60,8 +60,8 @@ export class Server {
      *
      * @param {string} script Deploy this script against the given target.
      * @param {string} target We run a hack script against this target server.
-     * @returns {boolean} True if the script is running on the target server
-     *     using at least one thread; false otherwise.
+     * @returns {boolean} True if the script is running on this server using at
+     *     least one thread; false otherwise.
      */
     deploy(script, target) {
         // Sanity checks.
@@ -124,7 +124,7 @@ export class Server {
     }
 
     /**
-     * The maximum amount of RAM (GB) of this server.
+     * The maximum amount of RAM (GB) on this server.
      *
      * @returns {number} The largest amount of RAM on this server.
      */
