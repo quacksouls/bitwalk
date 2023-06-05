@@ -73,6 +73,8 @@
   - At most 9 Hacknet nodes.
   - Each node at most Level 50.
   - No need to upgrade RAM and Cores.
+  - Now is a good time to start implementing some kind of logger.  Use the
+    logger to log main events in your scripts.  Use the logger in `hnet.js`.
 
 - [ ] Farm Hack XP
   - Write a script `xp.js` to farm Hack XP from joesguns.
