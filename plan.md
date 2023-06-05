@@ -68,7 +68,7 @@
   - Purchase a 256GB server.  Write a script `hgw/joe.js` to hack joesguns.
 
 - [ ] Automate Hacknet
-  - Write a script `hacknet.js` to automate the buying and upgrading of Hacknet
+  - Write a script `hnet.js` to automate the buying and upgrading of Hacknet
     nodes.
   - At most 9 Hacknet nodes.
   - Each node at most Level 50.
