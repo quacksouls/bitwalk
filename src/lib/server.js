@@ -16,6 +16,7 @@
  */
 
 import { bool_t } from "/quack/lib/constant/bool.js";
+import { script_t } from "/quack/lib/constant/script.js";
 import { server_t } from "/quack/lib/constant/server.js";
 import { MyString } from "/quack/lib/string.js";
 import { assert } from "/quack/lib/util.js";
@@ -175,6 +176,34 @@ export class Server {
      */
     ram_used() {
         return this.#ns.getServer(this.hostname()).ramUsed;
+    }
+
+    /**
+     * Share the RAM of this server with a faction.
+     *
+     * @returns {boolean} True if we are sharing RAM of this server;
+     *     false otherwise.
+     */
+    share() {
+        if (
+            !this.has_root_access()
+            || !this.#ns.fileExists(script_t.SHARE, server_t.HOME)
+        ) {
+            return bool_t.FAILURE;
+        }
+
+        // No free RAM on server to run our share script.
+        const nthread = this.num_threads(script_t.SHARE);
+        if (nthread < 1) {
+            return bool_t.FAILURE;
+        }
+
+        // Copy our share script over to this server and share its RAM with a
+        // faction.
+        this.#ns.scp(script_t.SHARE, this.hostname(), server_t.HOME);
+        const option = { preventDuplicates: true, threads: nthread };
+        this.#ns.exec(script_t.SHARE, this.hostname(), option);
+        return bool_t.SUCCESS;
     }
 }
 

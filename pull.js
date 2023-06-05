@@ -42,19 +42,24 @@ function dir_structure() {
         // playing Bitburner.
         "early-deploy.js",
         "early-hack.js",
+        "faction/share.js",
         "hello.js",
         "hgw/botnet.js",
+        "hgw/joe.js",
+        "kill-script.js",
         "lib/array.js",
         "lib/constant/bool.js",
         "lib/constant/hgw.js",
         "lib/constant/script.js",
         "lib/constant/server.js",
         "lib/constant/string.js",
+        "lib/constant/time.js",
         "lib/hgw.js",
         "lib/network.js",
         "lib/server.js",
         "lib/string.js",
         "lib/util.js",
+        "share.js",
     ];
     assert(filesystem.length > 0);
     return filesystem;

@@ -15,18 +15,20 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/// ///////////////////////////////////////////////////////////////////////
-// A bunch of constant values related to servers.
-/// ///////////////////////////////////////////////////////////////////////
+import { script_t } from "/quack/lib/constant/script.js";
+import { server_t } from "/quack/lib/constant/server.js";
+import { Server } from "/quack/lib/server.js";
 
-export const server_t = {
-    FOOD: "foodnstuff",
-    HOME: "home",
-    JOE: "joesguns",
-    NECTAR: "nectar-net",
-    NOODLE: "n00dles",
-    PSERV: "pserv",
-    SIGMA: "sigma-cosmetics",
-    SUSHI: "harakiri-sushi",
-    TEA: "hong-fang-tea",
-};
+/**
+ * Use a purchased server to hack joesguns.
+ *
+ * Usage: run quack/hgw/joe.js
+ *
+ * @param {NS} ns The Netscript API.
+ */
+export async function main(ns) {
+    const ram = 256;
+    const host = ns.purchaseServer(server_t.PSERV, ram);
+    const server = new Server(ns, host);
+    server.deploy(script_t.EARLY_HACK, server_t.JOE);
+}

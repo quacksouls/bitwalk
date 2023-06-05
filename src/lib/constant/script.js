@@ -21,4 +21,5 @@
 
 export const script_t = {
     EARLY_HACK: "/quack/early-hack.js",
+    SHARE: "/quack/share.js",
 };

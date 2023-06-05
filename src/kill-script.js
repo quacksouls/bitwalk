@@ -15,18 +15,17 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/// ///////////////////////////////////////////////////////////////////////
-// A bunch of constant values related to servers.
-/// ///////////////////////////////////////////////////////////////////////
+import { network } from "/quack/lib/network.js";
 
-export const server_t = {
-    FOOD: "foodnstuff",
-    HOME: "home",
-    JOE: "joesguns",
-    NECTAR: "nectar-net",
-    NOODLE: "n00dles",
-    PSERV: "pserv",
-    SIGMA: "sigma-cosmetics",
-    SUSHI: "harakiri-sushi",
-    TEA: "hong-fang-tea",
-};
+/**
+ * Kill all scripts on world servers.  Exclude home server.
+ *
+ * Usage: run quack/kill-script.js
+ *
+ * @param {NS} ns The Netscript API.
+ */
+export async function main(ns) {
+    const kill = (host) => ns.killall(host);
+    const is_nuked = (host) => ns.hasRootAccess(host);
+    network(ns).filter(is_nuked).forEach(kill);
+}

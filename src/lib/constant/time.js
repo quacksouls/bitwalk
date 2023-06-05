@@ -16,17 +16,12 @@
  */
 
 /// ///////////////////////////////////////////////////////////////////////
-// A bunch of constant values related to servers.
+// Various pre-defined periods of time in milliseconds.
 /// ///////////////////////////////////////////////////////////////////////
 
-export const server_t = {
-    FOOD: "foodnstuff",
-    HOME: "home",
-    JOE: "joesguns",
-    NECTAR: "nectar-net",
-    NOODLE: "n00dles",
-    PSERV: "pserv",
-    SIGMA: "sigma-cosmetics",
-    SUSHI: "harakiri-sushi",
-    TEA: "hong-fang-tea",
+export const time_t = {
+    /**
+     * One minute expressed in milliseconds.
+     */
+    MINUTE: 60e3,
 };

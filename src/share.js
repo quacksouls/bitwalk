@@ -15,18 +15,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/// ///////////////////////////////////////////////////////////////////////
-// A bunch of constant values related to servers.
-/// ///////////////////////////////////////////////////////////////////////
-
-export const server_t = {
-    FOOD: "foodnstuff",
-    HOME: "home",
-    JOE: "joesguns",
-    NECTAR: "nectar-net",
-    NOODLE: "n00dles",
-    PSERV: "pserv",
-    SIGMA: "sigma-cosmetics",
-    SUSHI: "harakiri-sushi",
-    TEA: "hong-fang-tea",
-};
+/**
+ * Share RAM with a faction.  Doing so would increase our reputation gains
+ * within that faction.  Run this script using as many threads as possible to
+ * increase our reputation gains even further.
+ *
+ * Usage: run quack/share.js -t [numThread]
+ * Example: run quack/share.js -t 42
+ *
+ * @param {NS} ns The Netscript API.
+ */
+export async function main(ns) {
+    for (;;) {
+        await ns.share();
+    }
+}
