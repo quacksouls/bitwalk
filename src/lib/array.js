@@ -31,4 +31,18 @@ export class MyArray {
         assert(Array.isArray(arr));
         return arr.length === 0;
     }
+
+    /**
+     * A sequence of non-negative integers, starting from zero.  Each number in
+     * the sequence is one more than the previous number.
+     *
+     * @param {number} num How many numbers in the sequence.  Must be positive.
+     *     If num := 4, then our sequence is [0, 1, 2, 3].
+     * @returns {array} A sequence of num numbers starting from 0.
+     */
+    static sequence(num) {
+        const n = Math.floor(num);
+        assert(n > 0);
+        return [...Array(n).keys()];
+    }
 }
