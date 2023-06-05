@@ -55,20 +55,28 @@
     Assemble a botnet and use it to hack the target.  This is similar to the
     script `early-deploy.js`, but we let all servers attack a common target.
 
-- [ ] Faction
-  - Join a faction.
-  - Work for a faction to raise reputation.
+- [ ] Faction and share
+  - Join the faction Sector-12.
+  - Work for faction to raise reputation so you can purchase all of its
+    augmentations.  The most important augmentation is `CashRoot Starter Kit`.
   - Write a script `kill-script.js` to kill all scripts running on world
     servers.  The script should exclude scripts running on home.
-  - Upgrade home RAM and share home server with faction.
-  - Share botnet with faction to boost reputation gain.
+  - Upgrade home RAM to at least 512GB.  Write a sript `share.js` to share home
+    server with faction.
+  - Write a script `faction/share.js` to share botnet with faction to boost
+    reputation gain.
+  - Purchase a 256GB server.  Write a script `hgw/joe.js` to hack joesguns.
 
 - [ ] Automate Hacknet
-  - A script to automate the buying and upgrading of Hacknet nodes.
+  - Write a script `hacknet.js` to automate the buying and upgrading of Hacknet
+    nodes.
+  - At most 9 Hacknet nodes.
+  - Each node at most Level 50.
+  - No need to upgrade RAM and Cores.
 
--   [ ] Farm Hack XP
-
-    -   Use botnet to farm Hack XP from joesguns.
+- [ ] Farm Hack XP
+  - Write a script `xp.js` to farm Hack XP from joesguns.
+  - Use botnet to farm Hack XP from joesguns.
 
 -   [ ] Sequential batcher
 
