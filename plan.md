@@ -36,13 +36,17 @@
   - Work in Software Job at Carmichael Security.
   - Need to save up some money to upgrade RAM of home server.
 
-- [ ] Upgrade home RAM
+- [x] Upgrade home RAM
+  - Music provided by Millennials Melody Originals
+    https://youtu.be/45dIea0tfkg
   - Go to Alpha Enterprises.  Upgrade RAM of home server to at least 256GB RAM.
   - Use all RAM of home server to hack joesguns.  Need to first kill the script
     that is hacking joesguns.
   - Apply for promotion at Carmichael Security.
 
-- [ ] Scanner and botnet
+- [x] Scanner and botnet
+  - Music provided by Millennials Melody Originals
+    https://youtu.be/45dIea0tfkg
   - Go to Alpha Enterprises and buy the TOR router.
   - Use the dark web to buy all port opener programs.
   - Write a utility function to scan all servers in the game world.
