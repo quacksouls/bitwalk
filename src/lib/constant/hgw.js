@@ -23,6 +23,14 @@ import { server_t } from "/quack/lib/constant/server.js";
 
 export const hgw_t = {
     /**
+     * Various actions in the HGW model.
+     */
+    action: {
+        GROW: "grow",
+        HACK: "hack",
+        WEAKEN: "weaken",
+    },
+    /**
      * Batchers or hack managers should not target any of these servers.
      */
     blacklist: [server_t.HOME, server_t.JOE, server_t.NOODLE],

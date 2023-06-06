@@ -15,21 +15,21 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/// ///////////////////////////////////////////////////////////////////////
-// Various pre-defined periods of time in milliseconds.
-/// ///////////////////////////////////////////////////////////////////////
+// NOTE: Keep this script as independent and small as possible so that its RAM
+// requirement is as low as possible.  Avoid importing anything into this
+// script.
 
-export const time_t = {
-    /**
-     * One millisecond.
-     */
-    MILLISECOND: 1,
-    /**
-     * One minute expressed in milliseconds.
-     */
-    MINUTE: 60e3,
-    /**
-     * One second expressed in milliseconds.
-     */
-    SECOND: 1e3,
-};
+/**
+ * NOTE: Assume we have root access on the target server.
+ *
+ * Hack a server and steal its money.
+ *
+ * Usage: run quack/hgw/hack.js [targetServer]
+ * Example: run quack/hgw/hack.js n00dles
+ *
+ * @param {NS} ns The Netscript API.
+ */
+export async function main(ns) {
+    const target = ns.args[0];
+    await ns.hack(target);
+}

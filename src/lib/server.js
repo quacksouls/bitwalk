@@ -208,6 +208,19 @@ export class Server {
 }
 
 /**
+ * Whether we can run a script on a given server.
+ *
+ * @param {NS} ns The Netscript API.
+ * @param {string} script A script to run.  Assumed to exist on our home server.
+ * @param {string} host The target host.
+ * @returns {boolean} True if the given target server can run the script;
+ *     false otherwise.
+ */
+export function can_run_script(ns, script, host) {
+    return num_threads(ns, script, host) > 0;
+}
+
+/**
  * Whether a server is bankrupt.  A server is bankrupt if the maximum amount
  * of money it can hold is zero.
  *
@@ -217,4 +230,24 @@ export class Server {
  */
 export function is_bankrupt(ns, host) {
     return ns.getServer(host).moneyMax === 0;
+}
+
+/**
+ * The maximum number of threads that can be used to run our script on a given
+ * server.
+ *
+ * @param {NS} ns The Netscript API.
+ * @param {string} script A script.  Assumed to be located on our home server.
+ * @param {string} host Hostname of a world server.
+ * @returns {number} The maximum number of threads to run our script on the
+ *     given server.
+ */
+export function num_threads(ns, script, host) {
+    const script_ram = ns.getScriptRam(script, server_t.HOME);
+    const { maxRam, ramUsed } = ns.getServer(host);
+    const server_ram = maxRam - ramUsed;
+    if (server_ram < script_ram) {
+        return 0;
+    }
+    return Math.floor(server_ram / script_ram);
 }

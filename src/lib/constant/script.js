@@ -21,5 +21,10 @@
 
 export const script_t = {
     EARLY_HACK: "/quack/early-hack.js",
+    hgw: {
+        GROW: "/quack/hgw/grow.js",
+        HACK: "/quack/hgw/hack.js",
+        WEAKEN: "/quack/hgw/weaken.js",
+    },
     SHARE: "/quack/share.js",
 };
