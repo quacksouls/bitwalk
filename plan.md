@@ -55,7 +55,9 @@
     Assemble a botnet and use it to hack the target.  This is similar to the
     script `early-deploy.js`, but we let all servers attack a common target.
 
-- [ ] Faction and share
+- [x] Faction and share
+  - Music provided by Millennials Melody Originals
+    https://youtu.be/AnApQCFkvkA
   - Join the faction Sector-12.
   - Work for faction to raise reputation so you can purchase all of its
     augmentations.  The most important augmentation is `CashRoot Starter Kit`.
@@ -65,7 +67,8 @@
     server with faction.
   - Write a script `faction/share.js` to share botnet with faction to boost
     reputation gain.
-  - Purchase a 256GB server.  Write a script `hgw/joe.js` to hack joesguns.
+  - Purchase a 256GB server.  Write a script `hgw/joe.js` that uses the
+    purchased server to hack joesguns.
 
 - [ ] Automate Hacknet
   - Write a script `hnet.js` to automate the buying and upgrading of Hacknet
