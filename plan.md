@@ -83,15 +83,12 @@
   - Write a script `hgw/xp.js` to farm Hack XP from joesguns.
   - Use botnet to farm Hack XP from joesguns.
 
--   [ ] Proto batcher
-
-    -   Buy the program Formulas.exe via the dark web.
-    -   Purchase a server and use it to implement a proto batcher.
-
--   [ ] Parallel batcher
-
-    -   Buy the program Formulas.exe via the dark web.
-    -   Purchase a server and use it to implement a parallel batcher.
+- [ ] Parallel batcher
+  - Buy the program `Formulas.exe` via the dark web.  Requires $5b.  Use one of
+    the early hack managers to raise the money.
+  - Write a batching manager `hgw/batcher/cloud.js` to manage a farm of
+    purchased servers, each running a parallel batcher.  The batcher requires
+    `Formulas.exe`.
 
 -   [ ] Stock market, pre-4S
 
