@@ -83,10 +83,6 @@
   - Write a script `hgw/xp.js` to farm Hack XP from joesguns.
   - Use botnet to farm Hack XP from joesguns.
 
--   [ ] Sequential batcher
-
-    -   Use botnet to implement a sequential batcher.
-
 -   [ ] Proto batcher
 
     -   Buy the program Formulas.exe via the dark web.
