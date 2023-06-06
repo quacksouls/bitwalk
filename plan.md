@@ -80,7 +80,7 @@
     logger to log main events in your scripts.  Use the logger in `hnet.js`.
 
 - [ ] Farm Hack XP
-  - Write a script `xp.js` to farm Hack XP from joesguns.
+  - Write a script `hgw/xp.js` to farm Hack XP from joesguns.
   - Use botnet to farm Hack XP from joesguns.
 
 -   [ ] Sequential batcher
