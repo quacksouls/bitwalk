@@ -51,9 +51,10 @@
   - Use the dark web to buy all port opener programs.
   - Write a utility function to scan all servers in the game world.
   - Write a weight function to help us choose a server to target.
-  - Write a hack manager that automatically chooses a server to target.
-    Assemble a botnet and use it to hack the target.  This is similar to the
-    script `early-deploy.js`, but we let all servers attack a common target.
+  - Write a hack manager `hgw/botnet.js` that automatically chooses a server to
+    target.  Assemble a botnet and use it to hack the target.  This is similar
+    to the script `early-deploy.js`, but we let all servers attack a common
+    target.
 
 - [x] Faction and share
   - Music provided by Millennials Melody Originals
@@ -70,7 +71,9 @@
   - Purchase a 256GB server.  Write a script `hgw/joe.js` that uses the
     purchased server to hack joesguns.
 
-- [ ] Automate Hacknet
+- [x] Automate Hacknet
+  - Music provided by Millennials Melody Originals
+    https://youtu.be/TOgH_gXEI6k
   - Write a script `hnet.js` to automate the buying and upgrading of Hacknet
     nodes.
   - At most 9 Hacknet nodes.
@@ -78,8 +81,17 @@
   - No need to upgrade RAM and Cores.
   - Now is a good time to start implementing some kind of logger.  Use the
     logger to log main events in your scripts.  Use the logger in `hnet.js`.
+  - Purchase all augmentations from the faction Sector-12.
+  - Upgrade home RAM as high as possible.
+  - Purchase as many levels of Neuroflux Governor as possible.
+  - Install the augmentations and soft reset.
+  - Restart the script `early-deploy.js` for some passive income.
 
 - [ ] Farm Hack XP
+  - Join the faction Tian Di Hui.  Requirements are:
+    - Travel to Chongqing, New Tokyo, or Ishima.
+    - At least $1m.
+    - At least 50 Hack.
   - Write a script `hgw/xp.js` to farm Hack XP from joesguns.
   - Use botnet to farm Hack XP from joesguns.
 
@@ -89,52 +101,62 @@
   - Write a batching manager `hgw/batcher/cloud.js` to manage a farm of
     purchased servers, each running a parallel batcher.  The batcher requires
     `Formulas.exe`.
+  - Save up enough money and reputation to buy all augmentations from the
+    faction Tian Di Hui.
 
--   [ ] Stock market, pre-4S
+- [ ] Stock market, pre-4S
+  - Spend $200m to purchase an account on the World Stock Exchange (WSE).
+  - Spend $5b to purchase access to the Trade Information eXchange (TIX) API.
+  - Write a trade bot `stock/pre4s.js` without access to 4S data and API.
 
-    -   A trade bot without access to 4S data and API.
+- [ ] Stock market, post-4S
+  - Spend $1b to purchase access to 4S Market Data.
+  - Spend $25b to purchase access to 4S Market Data TIX API.
+  - Write a trade bot `stock/trade.js` with access to all data and APIs.
 
--   [ ] Stock market, post-4S
+- [ ] Shortest path
+  - Find shortest path to a target server.
+  - Simulate terminal input to implement a connect command from the terminal.
 
-    -   A trade bot with access to all data and APIs.
+- [ ] Modified HUD
+  - Modify the HUD to display custom data/text.
 
--   [ ] Shortest path
+- [ ] Coding Contracts (CCT)
+  - Write a script to find CCTs.
+  - Solve each CCT.
 
-    -   Find shortest path to a target server.
-    -   Simulate terminal input to implement a connect command from the
-        terminal.
+- [ ] Destroy the `w0r1d_d43m0n`
+  - Should have joined the faction Daedalus and purchased the augmentation
+    The Red Pill.  Install the augmentation to soft reset and a new server
+    called `w0r1d_d43m0n` would appear.
+  - Gain root access to `w0r1d_d43m0n`.  Requirements are:
+    - Have at least 3000 Hack.
+    - Open 5 ports on the server.
+    - Connect to the server and run `NUKE.exe`.
+  - From the terminal, run the terminal command `hack` to destroy the server.
 
--   [ ] Modified HUD
+- [ ] Gang manager
+  - Automate the management of a criminal gang.
 
-    -   Modify the HUD to display custom data/text.
+- [ ] Sleeve manager
+  - Automate the management of your sleeves to farm XP for combat stats.
 
--   [ ] Coding Contracts (CCT)
+- [ ] Intelligence farm, part 1
+  - Commit larcency.
 
-    -   Write a script to find CCTs.
-    -   Solve each CCT.
+- [ ] Intelligence farm, part 2
+  - Visit different locations.
+  - Do sleeves committing crimes increase Intelligence XP?
 
--   [ ] Gang manager
+- [ ] Intelligence farm, part 3
+  - Hack a server from the terminal.
 
-    -   Automate the management of a criminal gang.
+- [ ] Intelligence farm, part 4
+  - Use money from gang, trade bot, and batcher to farm Intelligence XP.
+  - Buy and delete cheapest program.
 
--   [ ] Sleeve manager
+- [ ] Bladeburner manager
+  - Automate the management of Bladeburner to destroy a BitNode.
 
-    -   Automate the management of your sleeves to farm XP for combat stats.
-
--   [ ] Intelligence farm, part 1
-
-    -   Simple way to farm Intelligence XP.
-    -   Visit different locations.
-    -   Do sleeves committing crimes increase Intelligence XP?
-
--   [ ] Intelligence farm, part 2
-
-    -   Use money from gang, trade bot, and batcher to farm Intelligence XP.
-    -   Buy and delete cheapest program.
-
--   [ ] Bladeburner manager
-
-    -   Automate the management of Bladeburner to destroy a BitNode.
-
--   [ ] Intelligence farm, part 3
-    -   Use Bladeburner to farm Intelligence XP.
+- [ ] Intelligence farm, part 5
+  - Use Bladeburner to farm Intelligence XP.
