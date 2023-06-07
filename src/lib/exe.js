@@ -15,34 +15,30 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { colour_t } from "/quack/lib/constant/colour.js";
-import { string_t } from "/quack/lib/constant/string.js";
-import { MyString } from "/quack/lib/string.js";
+import { server_t } from "/quack/lib/constant/server.js";
+import { darkweb_t } from "/quack/lib/constant/tor.js";
 
 /// ///////////////////////////////////////////////////////////////////////
-// Miscellaneous functions for logging main events.
+// Utility functions related to programs that can be created or purchased.
 /// ///////////////////////////////////////////////////////////////////////
 
 /**
- * Print an error message to the terminal.
+ * Whether we have the program Formulas.exe.
  *
  * @param {NS} ns The Netscript API.
- * @param {string} msg Print this message to the terminal.
+ * @returns {boolean} True if we have the program Formulas.exe; false otherwise.
  */
-export function error(ns, msg) {
-    log(ns, msg, colour_t.RED);
+export function has_formulas(ns) {
+    return has_program(ns, darkweb_t.program.FORMULAS);
 }
 
 /**
- * Print a log to the terminal.
+ * Whether we have a particular program.
  *
  * @param {NS} ns The Netscript API.
- * @param {string} msg Print this message to the terminal.
- * @param {string} colour Use this colour to print the given message.  Default
- *     is empty string, i.e. use the default colour theme of the terminal.
+ * @param {string} prog Do we have this program?
+ * @returns {boolean} True if we have the given program; false otherwise.
  */
-export function log(ns, msg, colour = "") {
-    const date = new Date(Date.now()).toISOString();
-    const suffix = MyString.is_empty(colour) ? string_t.EMPTY : colour_t.RESET;
-    ns.tprintf(`[${date}] ${colour}${ns.getScriptName()}: ${msg}${suffix}`);
+export function has_program(ns, prog) {
+    return ns.fileExists(prog, server_t.HOME);
 }

@@ -20,6 +20,7 @@
 /// ///////////////////////////////////////////////////////////////////////
 
 export const script_t = {
+    BATCHER: "/quack/hgw/batcher/pserv.js",
     EARLY_HACK: "/quack/early-hack.js",
     hgw: {
         GROW: "/quack/hgw/grow.js",

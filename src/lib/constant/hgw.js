@@ -31,7 +31,40 @@ export const hgw_t = {
         WEAKEN: "weaken",
     },
     /**
+     * Various constants related to one batch.
+     */
+    batch: {
+        /**
+         * The delay time between the firing of each HGW action.  Time is in
+         * milliseconds.
+         */
+        DELAY: 250,
+        /**
+         * An invalid number of threads.
+         */
+        INVALID_NUM_THREAD: -1,
+        /**
+         * Run this many batches, then do a prep cycle.
+         */
+        MAX: 100,
+        /**
+         * Sleep for this amount of time before firing another batch.  Time is
+         * in milliseconds.
+         */
+        SLEEP: 100,
+    },
+    /**
      * Batchers or hack managers should not target any of these servers.
      */
     blacklist: [server_t.HOME, server_t.JOE, server_t.NOODLE],
+    /**
+     * The fraction of money to steal from a server.
+     */
+    money: {
+        HALF: 0.5,
+    },
+    /**
+     * The maximum amount of RAM for a purchased server running a batcher.
+     */
+    PSERV_MAX_RAM: 16384, // 2^14
 };

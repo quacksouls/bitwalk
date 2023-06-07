@@ -15,17 +15,22 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { time_t } from "/quack/lib/constant/time.js";
+import { assert } from "/quack/lib/util.js";
+
 /// ///////////////////////////////////////////////////////////////////////
-// Bunch of constant values related to colours.
+// Miscellaneous static methods related to time conversion.
 /// ///////////////////////////////////////////////////////////////////////
 
-/**
- * Use ANSI escape codes to add colour.  Refer to these pages for more details:
- *
- * https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
- * https://talyian.github.io/ansicolors/
- */
-export const colour_t = {
-    RED: "\u001b[31m",
-    RESET: "\u001b[0m",
-};
+export class Time {
+    /**
+     * Convert an amount of time in milliseconds to seconds.
+     *
+     * @param {number} m An amount of time in milliseconds.
+     * @returns {number} The same amount of time but given in seconds.
+     */
+    static to_second(m) {
+        assert(m >= 0);
+        return m / time_t.SECOND;
+    }
+}

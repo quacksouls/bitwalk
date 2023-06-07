@@ -16,16 +16,24 @@
  */
 
 /// ///////////////////////////////////////////////////////////////////////
-// Bunch of constant values related to colours.
+// A bunch of constant values related to purchased servers.
 /// ///////////////////////////////////////////////////////////////////////
 
-/**
- * Use ANSI escape codes to add colour.  Refer to these pages for more details:
- *
- * https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
- * https://talyian.github.io/ansicolors/
- */
-export const colour_t = {
-    RED: "\u001b[31m",
-    RESET: "\u001b[0m",
+export const pserv_t = {
+    ram: {
+        /**
+         * The default amount of RAM for each purchased server.
+         */
+        DEFAULT: 1024,
+    },
+    /**
+     * The prefix for the name of each purchased server.  The very first
+     * purchased server is always named "pserv".  Any subsequent purchased
+     * server is named as pserv-n, where n is a non-negative integer.
+     */
+    PREFIX: "pserv",
+    /**
+     * Sleep for this interval of time.  Currently it is 5 minutes.
+     */
+    TICK: 300e3,
 };

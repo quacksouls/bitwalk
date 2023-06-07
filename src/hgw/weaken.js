@@ -22,14 +22,23 @@
 /**
  * NOTE: Assume we have root access on the target server.
  *
- * Lower the security level of a server.
+ * Lower the security level of a server.  The script accepts these arguments:
  *
- * Usage: run quack/hgw/weaken.js [targetServer]
- * Example: run quack/hgw/weaken.js n00dles
+ * (1) target := Hostname of the server to target.
+ * (2) waitTime := Additional amount of time (in milliseconds) to wait before
+ *     the weaken operation completes.
+ *
+ * Usage: run quack/hgw/weaken.js [target] [waitTime]
+ * Example: run quack/hgw/weaken.js n00dles 42
  *
  * @param {NS} ns The Netscript API.
  */
 export async function main(ns) {
-    const target = ns.args[0];
-    await ns.weaken(target);
+    const [target, time] = ns.args;
+    if (time === undefined) {
+        await ns.weaken(target);
+    } else {
+        const option = { additionalMsec: Math.floor(Number(time)) };
+        await ns.weaken(target, option);
+    }
 }

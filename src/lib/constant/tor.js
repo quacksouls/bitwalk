@@ -16,16 +16,15 @@
  */
 
 /// ///////////////////////////////////////////////////////////////////////
-// Bunch of constant values related to colours.
+// A bunch of constant values related to programs that can be created or bought
+// via the dark web.
 /// ///////////////////////////////////////////////////////////////////////
 
-/**
- * Use ANSI escape codes to add colour.  Refer to these pages for more details:
- *
- * https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
- * https://talyian.github.io/ansicolors/
- */
-export const colour_t = {
-    RED: "\u001b[31m",
-    RESET: "\u001b[0m",
+export const darkweb_t = {
+    /**
+     * Constants related to programs that can be purchased via the dark web.
+     */
+    program: {
+        FORMULAS: "Formulas.exe",
+    },
 };

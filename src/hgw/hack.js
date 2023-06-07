@@ -22,14 +22,23 @@
 /**
  * NOTE: Assume we have root access on the target server.
  *
- * Hack a server and steal its money.
+ * Hack a server and steal its money.  The script accepts these arguments:
  *
- * Usage: run quack/hgw/hack.js [targetServer]
- * Example: run quack/hgw/hack.js n00dles
+ * (1) target := Hostname of the server to target.
+ * (2) waitTime := Additional amount of time (in milliseconds) to wait before
+ *     the hack operation completes.
+ *
+ * Usage: run quack/hgw/hack.js [target] [waitTime]
+ * Example: run quack/hgw/hack.js n00dles 42
  *
  * @param {NS} ns The Netscript API.
  */
 export async function main(ns) {
-    const target = ns.args[0];
-    await ns.hack(target);
+    const [target, time] = ns.args;
+    if (time === undefined) {
+        await ns.hack(target);
+    } else {
+        const option = { additionalMsec: Math.floor(Number(time)) };
+        await ns.hack(target, option);
+    }
 }

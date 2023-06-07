@@ -221,6 +221,17 @@ export function can_run_script(ns, script, host) {
 }
 
 /**
+ * The amount of available RAM on a server.
+ *
+ * @param {NS} ns The Netscript API.
+ * @param {string} host Hostname of the server to query.
+ * @returns {number} The amount of free RAM on the given server.
+ */
+export function free_ram(ns, host) {
+    return ns.getServerMaxRam(host) - ns.getServerUsedRam(host);
+}
+
+/**
  * Whether a server is bankrupt.  A server is bankrupt if the maximum amount
  * of money it can hold is zero.
  *

@@ -15,17 +15,17 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/// ///////////////////////////////////////////////////////////////////////
-// Bunch of constant values related to colours.
-/// ///////////////////////////////////////////////////////////////////////
-
 /**
- * Use ANSI escape codes to add colour.  Refer to these pages for more details:
+ * Delete all purchased servers.  This would also kill all scripts running
+ * on each purchased server.
  *
- * https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
- * https://talyian.github.io/ansicolors/
+ * Usage: run quack/kill-server.js
+ *
+ * @param {NS} ns The Netscript API.
  */
-export const colour_t = {
-    RED: "\u001b[31m",
-    RESET: "\u001b[0m",
-};
+export async function main(ns) {
+    ns.getPurchasedServers().forEach((host) => {
+        ns.killall(host);
+        ns.deleteServer(host);
+    });
+}

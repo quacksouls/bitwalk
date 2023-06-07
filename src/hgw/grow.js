@@ -22,14 +22,23 @@
 /**
  * NOTE: Assume we have root access on the target server.
  *
- * Grow money on a target server.
+ * Grow money on a target server.  The script accepts these arguments:
  *
- * Usage: run quack/hgw/grow.js [targetServer]
- * Example: run quack/hgw/grow.js n00dles
+ * (1) target := Hostname of the server to target.
+ * (2) waitTime := Additional amount of time (in milliseconds) to wait before
+ *     the grow operation completes.
+ *
+ * Usage: run quack/hgw/grow.js [target] [waitTime]
+ * Example: run quack/hgw/grow.js n00dles 42
  *
  * @param {NS} ns The Netscript API.
  */
 export async function main(ns) {
-    const target = ns.args[0];
-    await ns.grow(target);
+    const [target, time] = ns.args;
+    if (time === undefined) {
+        await ns.grow(target);
+    } else {
+        const option = { additionalMsec: Math.floor(Number(time)) };
+        await ns.grow(target, option);
+    }
 }
