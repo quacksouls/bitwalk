@@ -15,6 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { server_t } from "/quack/lib/constant/server.js";
 import { network } from "/quack/lib/network.js";
 
 /**
@@ -27,5 +28,6 @@ import { network } from "/quack/lib/network.js";
 export async function main(ns) {
     const kill = (host) => ns.killall(host);
     const is_nuked = (host) => ns.hasRootAccess(host);
-    network(ns).filter(is_nuked).forEach(kill);
+    const not_home = (host) => host !== server_t.HOME;
+    network(ns).filter(is_nuked).filter(not_home).forEach(kill);
 }
