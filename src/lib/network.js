@@ -23,14 +23,13 @@ import { Server } from "/quack/lib/server.js";
 /// ///////////////////////////////////////////////////////////////////////
 
 /**
- * Scan all servers in the game world.  Exclude our home server.
+ * Scan all servers in the game world.
  *
  * @param {NS} ns The Netscript API.
  * @param {string} root Start scanning from this server.  Default is home
  *     server.
  * @param {set} visit Set of servers visited so far.  Default is empty set.
- * @returns {array<string>} Array of hostnames of world servers, excluding home
- *     server.
+ * @returns {array<string>} Hostnames of all world servers.
  */
 export function network(ns, root = server_t.HOME, visit = new Set()) {
     const not_visited = (host) => !visit.has(host);
