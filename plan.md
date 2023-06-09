@@ -87,7 +87,10 @@
   - Install the augmentations and soft reset.
   - Restart the script `early-deploy.js` for some passive income.
 
-- [ ] Farm Hack XP
+- [x] Farm Hack XP
+  - Music provided by Millennials Melody Originals
+    - https://youtu.be/kRuP_Y8xkdU
+    - https://youtu.be/45dIea0tfkg
   - Join the faction Tian Di Hui.  Requirements are:
     - Travel to Chongqing, New Tokyo, or Ishima.
     - At least $1m.
@@ -95,12 +98,18 @@
   - Write a script `hgw/xp.js` to farm Hack XP from joesguns.
   - Use botnet to farm Hack XP from joesguns.
 
-- [ ] Parallel batcher
+- [x] Parallel batcher
+  - Music provided by Millennials Melody Originals
+    - https://youtu.be/qlw6sapdsY0
+    - https://youtu.be/OyvlMMg9J2g
+    - https://youtu.be/vX_h8tAmoio
   - Buy the program `Formulas.exe` via the dark web.  Requires $5b.  Use one of
     the early hack managers to raise the money.
+  - Buy as many port openers as possible.
   - Write a batching manager `hgw/batcher/cloud.js` to manage a farm of
     purchased servers, each running a parallel batcher.  The batcher requires
     `Formulas.exe`.
+  - Write a script `kill-server.js` to delete all purchased servers.
   - Save up enough money and reputation to buy all augmentations from the
     faction Tian Di Hui.
 
