@@ -45,4 +45,18 @@ export class MyArray {
         assert(n > 0);
         return [...Array(n).keys()];
     }
+
+    /**
+     * Sum the elements of an array.
+     *
+     * @param {array} array Add together the elements of this array.
+     *     Cannot be an empty array.
+     * @returns {number} The sum of the elements in the given array.
+     */
+    static sum(array) {
+        assert(!this.is_empty(array));
+        const init_value = 0;
+        const add = (sum, current) => sum + current;
+        return array.reduce(add, init_value);
+    }
 }

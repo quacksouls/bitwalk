@@ -16,23 +16,14 @@
  */
 
 /// ///////////////////////////////////////////////////////////////////////
-// Miscellaneous boolean values.
+// Various constants related to special numbers.
 /// ///////////////////////////////////////////////////////////////////////
 
-export const bool_t = {
-    /**
-     * Whether we have access to 4S data and API.
-     */
-    HAS_4S: true,
-    NO_4S: false,
-    /**
-     * Whether or not we are dealing with currency.
-     */
-    MONEY: true,
-    NOT_MONEY: false,
-    /**
-     * Whether or not we are successful at something.
-     */
-    SUCCESS: true,
-    FAILURE: false,
+export const number_t = {
+    BILLION: 1e9,
+    MILLION: 1e6,
+    QUADRILLION: 1e15,
+    QUINTILLION: 1e18,
+    THOUSAND: 1e3,
+    TRILLION: 1e12,
 };

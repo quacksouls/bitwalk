@@ -31,3 +31,13 @@ export function assert(cond) {
         throw new Error("Assertion failed");
     }
 }
+
+/**
+ * Whether a variable is boolean.
+ *
+ * @param {expression} x We want to determine whether this is a boolean.
+ * @returns {boolean} True if the given parameter is a boolean; false otherwise.
+ */
+export function is_boolean(x) {
+    return typeof x === "boolean";
+}

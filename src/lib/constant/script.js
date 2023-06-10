@@ -28,4 +28,8 @@ export const script_t = {
         WEAKEN: "/quack/hgw/weaken.js",
     },
     SHARE: "/quack/share.js",
+    stock: {
+        POST4S: "/quack/stock/trade.js",
+        PRE4S: "/quack/stock/pre4s.js",
+    },
 };

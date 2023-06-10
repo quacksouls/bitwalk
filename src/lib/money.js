@@ -15,11 +15,28 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { bool_t } from "/quack/lib/constant/bool.js";
 import { server_t } from "/quack/lib/constant/server.js";
+import { MyNumber } from "/quack/lib/number.js";
 
 /// ///////////////////////////////////////////////////////////////////////
 // Managing and manipulating money.
 /// ///////////////////////////////////////////////////////////////////////
+
+/**
+ * A class to hold information about money.
+ */
+export class Money {
+    /**
+     * Format currency.
+     *
+     * @param {number} amount Format this amount as currency.
+     * @returns {string} The given amount formatted as currency.
+     */
+    static format(amount) {
+        return `$${MyNumber.format(amount, bool_t.MONEY)}`;
+    }
+}
 
 /**
  * The amount of money the player has.
