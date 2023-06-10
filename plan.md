@@ -64,7 +64,7 @@
     augmentations.  The most important augmentation is `CashRoot Starter Kit`.
   - Write a script `kill-script.js` to kill all scripts running on world
     servers.  The script should exclude scripts running on home.
-  - Upgrade home RAM to at least 512GB.  Write a sript `share.js` to share home
+  - Upgrade home RAM to at least 512GB.  Write a script `share.js` to share home
     server with faction.
   - Write a script `faction/share.js` to share botnet with faction to boost
     reputation gain.
@@ -113,22 +113,34 @@
   - Save up enough money and reputation to buy all augmentations from the
     faction Tian Di Hui.
 
-- [ ] Stock market, pre-4S
-  - Spend $200m to purchase an account on the World Stock Exchange (WSE).
-  - Spend $5b to purchase access to the Trade Information eXchange (TIX) API.
-  - Write a trade bot `stock/pre4s.js` without access to 4S data and API.
+- [ ] Stock market
+  - Pre-4S
+    - Spend $200m to purchase an account on the World Stock Exchange (WSE).
+    - Spend $5b to purchase access to the Trade Information eXchange (TIX) API.
+    - Write a trade bot `stock/pre4s.js` without access to 4S data and API.
+  - Post-4S
+    - Spend $1b to purchase access to 4S Market Data.
+    - Spend $25b to purchase access to 4S Market Data TIX API.
+    - Write a trade bot `stock/trade.js` with access to all data and APIs.
 
-- [ ] Stock market, post-4S
-  - Spend $1b to purchase access to 4S Market Data.
-  - Spend $25b to purchase access to 4S Market Data TIX API.
-  - Write a trade bot `stock/trade.js` with access to all data and APIs.
-
-- [ ] Shortest path
+- [ ] Shortest path and HTML injection
   - Find shortest path to a target server.
-  - Simulate terminal input to implement a connect command from the terminal.
+  - Write a script `connect.js` to simulate terminal input and connect to a
+    target server.
+  - Write a script `backdoor.js` to backdoor a target server.
+  - Join the faction CyberSec.
+    - Stay put in Sector-12.
+    - At least 60 Hack.
+    - Open at least 1 port on the server.
+    - Install a backdoor on the server.
 
 - [ ] Modified HUD
   - Modify the HUD to display custom data/text.
+  - Write a script `hud.js` to display a custom HUD.
+
+- [ ] Server table
+  - Write a script `table.js` to display a table containing various information
+    about each server.
 
 - [ ] Coding Contracts (CCT)
   - Write a script to find CCTs.
@@ -151,7 +163,7 @@
   - Automate the management of your sleeves to farm XP for combat stats.
 
 - [ ] Intelligence farm, part 1
-  - Commit larcency.
+  - Commit larceny.
 
 - [ ] Intelligence farm, part 2
   - Visit different locations.
