@@ -40,6 +40,8 @@ function dir_structure() {
     const filesystem = [
         // Insert directory tree here.  Should contain sample scripts for
         // playing Bitburner.
+        "backdoor.js",
+        "connect.js",
         "early-deploy.js",
         "early-hack.js",
         "faction/share.js",

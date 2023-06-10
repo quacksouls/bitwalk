@@ -21,6 +21,16 @@
 
 export const bool_t = {
     /**
+     * Whether a graph is directed or undirected.
+     */
+    DIRECTED: true,
+    UNDIRECTED: false,
+    /**
+     * Whether we have a certain property.
+     */
+    HAS: true,
+    NOT: false,
+    /**
      * Whether we have access to 4S data and API.
      */
     HAS_4S: true,

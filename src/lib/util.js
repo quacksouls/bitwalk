@@ -41,3 +41,25 @@ export function assert(cond) {
 export function is_boolean(x) {
     return typeof x === "boolean";
 }
+
+/**
+ * A hackish way to implement shell scripting in Bitburner.  Emulate terminal
+ * input.
+ *
+ * @param {string} cmd Run this command from the terminal.
+ */
+export function shell(cmd) {
+    // Template code from the official documentation of Bitburner:
+    //
+    // https://bitburner-official.readthedocs.io/en/latest/netscript/advancedfunctions/inject_html.html
+    const input = globalThis["document"].getElementById("terminal-input"); // eslint-disable-line
+    input.value = cmd;
+    const handler = Object.keys(input)[1];
+    input[handler].onChange({
+        target: input,
+    });
+    input[handler].onKeyDown({
+        key: "Enter",
+        preventDefault: () => null,
+    });
+}
