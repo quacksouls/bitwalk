@@ -113,7 +113,10 @@
   - Save up enough money and reputation to buy all augmentations from the
     faction Tian Di Hui.
 
-- [ ] Stock market
+- [x] Stock market trade bot
+  - Music provided by Millennials Melody Originals
+    - https://youtu.be/2ltsSlIdhtY
+    - https://youtu.be/i43tkaTXtwI
   - Pre-4S
     - Spend $200m to purchase an account on the World Stock Exchange (WSE).
     - Spend $5b to purchase access to the Trade Information eXchange (TIX) API.
@@ -124,6 +127,7 @@
     - Write a trade bot `stock/trade.js` with access to all data and APIs.
 
 - [ ] Shortest path and HTML injection
+  - Purchase all augmentations from Tian Di Hui.
   - Find shortest path to a target server.
   - Write a script `connect.js` to simulate terminal input and connect to a
     target server.
