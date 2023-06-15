@@ -55,6 +55,7 @@ function dir_structure() {
         "hgw/weaken.js",
         "hgw/xp.js",
         "hnet.js",
+        "hud.js",
         "kill-script.js",
         "kill-server.js",
         "lib/array.js",
