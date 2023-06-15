@@ -126,7 +126,10 @@
     - Spend $25b to purchase access to 4S Market Data TIX API.
     - Write a trade bot `stock/trade.js` with access to all data and APIs.
 
-- [ ] Shortest path and HTML injection
+- [x] Shortest path and HTML injection
+  - Music provided by Millennials Melody Originals
+    - https://youtu.be/QdrCGXt6goU
+    - https://youtu.be/2JvP0K529Pg
   - Purchase all augmentations from Tian Di Hui.
   - Find shortest path to a target server.
   - Write a script `connect.js` to simulate terminal input and connect to a
@@ -135,8 +138,8 @@
   - Join the faction CyberSec.
     - Stay put in Sector-12.
     - At least 60 Hack.
-    - Open at least 1 port on the server.
-    - Install a backdoor on the server.
+    - Open at least 1 port on the server `CSEC`.
+    - Install a backdoor on the server `CSEC`.
 
 - [ ] Modified HUD
   - Modify the HUD to display custom data/text.
