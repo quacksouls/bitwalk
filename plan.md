@@ -142,7 +142,11 @@
     - Install a backdoor on the server `CSEC`.
 
 - [ ] Modified HUD
-  - Modify the HUD to display custom data/text.
+  - Modify the HUD to display the following data:
+    - Karma
+    - Hack XP per second of all scripts
+    - Income per second of all scripts
+    - Share power
   - Write a script `hud.js` to display a custom HUD.
 
 - [ ] Server table
